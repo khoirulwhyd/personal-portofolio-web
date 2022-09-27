@@ -1206,10 +1206,6 @@ html, body {
     position: absolute;
   }
 
-  .md\:col-span-2 {
-    grid-column: span 2 / span 2;
-  }
-
   .md\:my-36 {
     margin-top: 9rem;
     margin-bottom: 9rem;
@@ -1274,10 +1270,6 @@ html, body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
   .lg\:ml-20 {
     margin-left: 5rem;
   }
