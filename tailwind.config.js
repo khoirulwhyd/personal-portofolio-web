@@ -1,7 +1,8 @@
 module.exports = {
   content: [
     'index.html',
-    '/src/input.css'
+    '/src/input.css',
+     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
@@ -10,7 +11,8 @@ module.exports = {
         'textprimary': '#FFFFFF',
         'textsecondary': '#F3CA2F',
         'textselected': '#F3CA2F',
-        'kolom': '#333333'
+        'kolom': '#333333',
+        'yellow': "#F3CA2F"
       },
       fontFamily: {
         'poppins': ["'Poppins'", 'sans-serif']
@@ -24,5 +26,7 @@ module.exports = {
       'inset' : ['group-focus']
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
